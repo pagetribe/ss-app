@@ -38,7 +38,7 @@
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            app.initialize();
+            //app.initialize();
         </script>
         <script type="text/javascript" charset="utf-8">
 
@@ -49,7 +49,7 @@
          // Cordova is ready
          //
          function onDeviceReady() {
-            var ref = window.open('http://apache.org', '_blank', 'location=yes');
+            var ref = window.open('http://www.serviceseeking.com.au', '_blank', 'location=yes');
             ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
             ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
             ref.addEventListener('exit', function() { alert(event.type); });
